@@ -37,6 +37,8 @@ Script [`toggle.applescript`] will do UI automation (will go through mentioned s
 - or change (from 'All scripts allowed') to '**Scripts blocked**'
 [`disable.applescript`]
 
+&nbsp;
+
 *PS! Instead of doing toggle with one shortcut, using 2 shortcuts here. One will block and the other will allow.*
 
 
