@@ -57,7 +57,7 @@ Script [`toggle.applescript`] will do UI automation (will go through mentioned s
 
 To allow:
 
-| you> | UI automation program> | <program | 
+| you> | UI automation script> | <program | 
 | :------------ | :--------------| :--------------|  
 | 1. press shortcut, which will trigger | 1. ... **click on the lion icon** ... | brings up the 'Brave Shields' box |
 || 2. ... **move mouse to ... second from bottom drop-down element and click on it** ... | opens drop-down | 
@@ -66,7 +66,7 @@ To allow:
 
 To block:
 
-| you> | UI automation program> | <program | 
+| you> | UI automation script> | <program | 
 | :------------ | :--------------| :--------------|  
 | 1. press shortcut, which will trigger | 1. ... **click on the lion icon** ... | brings up the 'Brave Shields' box |
 || 2. ... **move mouse to ... second from bottom drop-down element and click on it** ... | opens drop-down | 
