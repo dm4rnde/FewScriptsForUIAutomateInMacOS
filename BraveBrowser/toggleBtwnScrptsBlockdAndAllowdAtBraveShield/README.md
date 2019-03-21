@@ -75,8 +75,8 @@ Bellow is just one possible approach on how keyboard shortcut could be attached 
     * under '`File Format`' select `Script`
     * save as `toggle.scpt` to your preferred location 'location A'
       &nbsp;    
-2. **Convert scpt to an app**
-    * Open `disable.scpt` file in '`Script Editor.app`' 
+2. **Convert disable.applescript to an app**
+    * Open `disable.applescript` file in '`Script Editor.app`' 
     * `File>Export...`
     * under '`File Format`' select `Application`
     * save as `setToScrptsBlockdCurrPgBraveShieldBraveBrowser.app` (this file name is just an example, you can rename as you prefer) to 'location A'
