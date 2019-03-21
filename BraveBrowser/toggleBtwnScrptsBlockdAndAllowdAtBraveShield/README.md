@@ -14,7 +14,7 @@ CATEGORY: UI automation
 
 ### Problem
 
-<span style="color:blue">*Brave Browser*</span> does not have option to **toggle between values 'All scripts allowed' and 'Scripts blocked'** (this is the part that blocks JavaScript scripts from running — or instead, allows them to run — *on domain of currently opened page*) **with keyboard shortcut**.
+*Brave Browser* does not have option to **toggle between values 'All scripts allowed' and 'Scripts blocked'** (this is the part that blocks JavaScript scripts from running — or instead, allows them to run — *on domain of currently opened page*) **with keyboard shortcut**.
 
 At the moment, to change value from existing to intended, you have to: 
  1. move mouse to click on the lion icon located on the right (on the 'address bar'), which will bring up the 'Brave Shields' box
