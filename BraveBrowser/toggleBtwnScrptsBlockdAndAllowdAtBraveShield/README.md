@@ -141,7 +141,7 @@ script. And it might not go as smoothly as that.
       &nbsp;
       
 4. **Create a service that will launch your app**
-    * Open '`Automator.app`'
+    * Open `Automator.app`
     * `File>New...`
     * select `Service`
     * change first drop down to '`no input`'
@@ -151,6 +151,7 @@ script. And it might not go as smoothly as that.
     * double-click on '`Launch Application`', box-like area opens
     * from that box-like area open drop-down and choose '`Other...`', then browse to select `setToScrptsBlockdCurrPgBraveShieldBraveBrowser.app` (from 'location A')
     * save — here, will save this new service as `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser`
+    * you can now close `Automator.app`
       &nbsp;
       
 5. **Attach a shortcut to your service**
