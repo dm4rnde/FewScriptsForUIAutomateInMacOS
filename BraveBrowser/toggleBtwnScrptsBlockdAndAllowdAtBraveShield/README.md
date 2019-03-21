@@ -132,6 +132,7 @@ script. And it might not go as smoothly as that.
     * `File>Export...`
     * under '`File Format`' select `Application`
     * save as `setToScrptsBlockdCurrPgBraveShieldBraveBrowser.app` (this file name is just an example, you can rename as you prefer) to 'location A'
+    * you can now close `disable.applescript`
       &nbsp;
       
 3. **Give your app Accessibility permission**; without this, app will not run
