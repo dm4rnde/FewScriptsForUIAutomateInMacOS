@@ -1,10 +1,10 @@
 ## Switch between 'Scripts blocked' and 'All scripts allowed' (under Brave Shield, under Brave Browser)
 
-STATUS: 	**WORKS**
 
-&nbsp;
+| CATEGORY 		| TARGET PROGRAM | STATUS 	 |
+| :------------ | :--------------| :---------|
+| UI automation | Brave Browser  | **WORKS** |
 
-CATEGORY: UI automation
 
 &nbsp;
 
