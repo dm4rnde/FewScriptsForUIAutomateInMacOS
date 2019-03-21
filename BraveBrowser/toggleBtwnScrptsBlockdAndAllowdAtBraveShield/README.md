@@ -27,7 +27,7 @@ At the moment, to change value from existing to intended, you have to:
 | you> | <program |
 | :------------ | :--------------| 
 | 1. move mouse to click on the lion icon located on the right (on the 'address bar'), which | brings up the 'Brave Shields' box |
-| 2. then move mouse to go to second from bottom drop-down element and click on, this | opens drop-down | 
+| 2. then move mouse to go to second from bottom drop-down element and click on it, this | opens drop-down | 
 | 3. then move mouse to go to intended new value (in that opened drop-down), click on it, and wait until browser | reloads page |
 | 4. finally press escape key on keyboard (or move mouse away to some neutral area and click), which | closes the 'Brave Shields' |
 
@@ -55,10 +55,10 @@ To allow:
 
 | you> | UI automation porgram | <program | 
 | :------------ | :--------------| :--------------|  
-| 1. press shortcut, which will | 1. move mouse to click on the lion icon located on the right (on the 'address bar'), which | brings up the 'Brave Shields' box |
-|| 2. then move mouse to go to second from bottom drop-down element and click on, this | opens drop-down | 
-|| 3. then move mouse to go to intended new value (in that opened drop-down), click on it, and wait until browser | reloads page |
-|| 4. finally press escape key on keyboard (or move mouse away to some neutral area and click), which | closes the 'Brave Shields' |
+| 1. press shortcut, which will | 1. *move mouse to* **click on the lion icon** located on the right (on the 'address bar'), which | brings up the 'Brave Shields' box |
+|| 2. then **move mouse to go to second from bottom drop-down element and click on it**, this | opens drop-down | 
+|| 3. then **move mouse to go to intended new value (in that opened drop-down), click on it**, and wait until browser | reloads page |
+|| 4. **finally press escape key on keyboard** (or move mouse away to some neutral area and click), which | closes the 'Brave Shields' |
 
 To block:
 
