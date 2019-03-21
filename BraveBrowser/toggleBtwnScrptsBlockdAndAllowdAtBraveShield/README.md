@@ -17,10 +17,12 @@
 *Brave Browser* does not have option to **toggle between values 'All scripts allowed' and 'Scripts blocked'** (this is the part that blocks JavaScript scripts from running — or instead, allows them to run — *on domain of currently opened page*) **with keyboard shortcut**.
 
 At the moment, to change value from existing to intended, you have to: 
- 1. move mouse to click on the lion icon located on the right (on the 'address bar'), which will bring up the 'Brave Shields' box
-2. then move mouse to go to second from bottom drop-down element and click on it to open drop-down 
-3. then move mouse to go to intended new value (in that opened drop-down), click on it, and wait until page reloads
-4. finally press escape key on keyboard (or move mouse away to some neutral area and click) to close the 'Brave Shields'
+| user> | <program |
+| :------------ | :--------------| 
+| 1. move mouse to click on the lion icon located on the right (on the 'address bar'), which will | bring up the 'Brave Shields' box |
+| 2. then move mouse to go to second from bottom drop-down element and click on it to | open drop-down | 
+| 3. then move mouse to go to intended new value (in that opened drop-down), click on it, and wait until | page reloads |
+| 4. finally press escape key on keyboard (or move mouse away to some neutral area and click) to | close the 'Brave Shields' |
 
 &nbsp;
 
