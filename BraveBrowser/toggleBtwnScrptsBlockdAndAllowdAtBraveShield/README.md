@@ -26,7 +26,7 @@ being blocked/allowed by browser.
 
 ##### PROCEDURE
 
-At the moment, to change value from existing to intended, you have to: 
+At the moment, to change value from existing to intended: 
 
 | you> | <program |
 | :------------ | :--------------| 
