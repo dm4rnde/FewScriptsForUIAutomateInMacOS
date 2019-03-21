@@ -12,7 +12,7 @@
 
 &nbsp;
 
-### Problem
+### PROBLEM
 
 ##### DESCRIPTION
 
@@ -33,7 +33,7 @@ At the moment, to change value from existing to intended, you have to:
 
 &nbsp;
 
-### Solution
+### SOLUTION
 
 ##### DESCRIPTION
 
