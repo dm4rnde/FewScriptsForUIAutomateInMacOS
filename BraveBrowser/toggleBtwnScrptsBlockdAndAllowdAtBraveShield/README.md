@@ -131,7 +131,7 @@ script. And it might not go as smoothly as that.
     * Open `disable.applescript` file in '`Script Editor.app`' 
     * `File>Export...`
     * under '`File Format`' select `Application`
-    * save as `setToScrptsBlockdCurrPgBraveShieldBraveBrowser.app` (this file name is just an example, you can rename as you prefer) to 'location A'
+    * save as `setToScrptsBlockdCurrPgBraveShieldBraveBrowser.app` (this file name is just an example, you can name as you prefer) to 'location A'
     * you can now close `disable.applescript`
       &nbsp;
       
