@@ -18,6 +18,8 @@
 
 *Brave Browser* does not have option to **toggle between values 'All scripts allowed' and 'Scripts blocked'** (this is the part that blocks JavaScript scripts from running — or instead, allows them to run — *on domain of currently opened page*) **with keyboard shortcut**.
 
+&nbsp;
+
 ##### PROCEDURE
 
 At the moment, to change value from existing to intended, you have to: 
