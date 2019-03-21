@@ -9,7 +9,8 @@
 &nbsp;
 
 ```
-Note! The word 'script' has 2 different meanings in current text: first, script as AppleScript — something stored as .applescript or .scpt; and then, script as JavaScript — something that is 
+Note! The word 'script' has 2 different meanings in current text: first, script as AppleScript — 
+something stored as .applescript or .scpt; and then, script as JavaScript — something that is 
 being blocked/allowed by browser.
 ```
 
