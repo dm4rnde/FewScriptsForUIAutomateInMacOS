@@ -34,8 +34,8 @@ Has access to this site"
 	
 	
 	#	#	#	#	#	#	#	#	#	#	#	#	#
-	# 1. click the lion-looking icon on the 'address bar', which will open 'Brave Shields ...' overlay-like 
-	#	element
+	# 1. click on the lion icon on the 'address bar', which will open 'Brave Shields ...' overlay-like 
+	#    element
 	
 	
 	#(*finetunedelay)
@@ -61,6 +61,7 @@ Has access to this site"
 		
 	on error errorMessage2 number errorNumber2
 		display dialog "ERROR2: " & errorMessage2
+		# in that case, fail all
 		return errorMessage2
 	end try
 	
@@ -73,7 +74,7 @@ Has access to this site"
 	
 	#	#	#	#	#	#	#	#	#	#	#	#	#
 	# 2. then go to pre-last drop down and click on it to open drop-down;
-	# 3. then go to needed new value, click on it, and wait until page reloads; 
+	# 3. then go to intended new value, click on it, and wait until page reloads; 
 	
 	
 	#tell application "Brave Browser" to activate
@@ -85,6 +86,7 @@ Has access to this site"
 		end tell
 	on error errorMessage3 number errorNumber3
 		display dialog "ERROR3: " & errorMessage3
+		# in that case, fail all
 		return errorMessage3
 	end try
 	
@@ -146,7 +148,7 @@ current_pos = CGEventGetLocation(cg_event)            # save current mouse posit
 mouseClick(" & x & "," & y & ")					 # go to pre-last drop down and open drop-down
 #(*finetunedelay)
 time.sleep(1.5)								 # give it some time for UI to make changes appear
-mouseClick(" & x & "," & y2 & ")					 # select needed new value and wait until page reloads
+mouseClick(" & x & "," & y2 & ")					 # select intended new value and wait until page reloads
 mouseMove(int(current_pos.x), int(current_pos.y))      # restore mouse position
 
 END"
@@ -170,8 +172,9 @@ END"
 		key code 53
 		
 		# Second Escape press is to cover those cases, 
-		# when 'All scripts allowed' was already selected
+		# when intended value was already selected
 		# and no drop down value was actually changed
+		# (nothing changed)
 		#(*finetunedelay)
 		delay 0.5
 		key code 53
