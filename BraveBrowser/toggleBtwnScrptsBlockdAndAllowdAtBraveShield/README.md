@@ -160,8 +160,8 @@ Bellow is just one possible approach on how keyboard shortcut could be attached 
 
       &nbsp;
 
-Now, if this approach worked, `enable.applescript` can be done similarly (some other shortcut could be attached to it). 
+Now, if above approach worked, `enable.applescript` can be done similarly (some other shortcut could be attached to it). 
 
 ```
-PS! The shortcuts could be, for example: `Ctrl-Cmd-Alt-'` to block; `Shift-Ctrl-Cmd-Alt-'` to allow.
+PS! The shortcuts could be, for example: Ctrl-Cmd-Alt-' to block; Shift-Ctrl-Cmd-Alt-' to allow.
 ```
