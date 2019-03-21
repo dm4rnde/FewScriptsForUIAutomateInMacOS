@@ -112,8 +112,9 @@ Bellow is just one possible approach on how keyboard shortcut could be attached 
     * Go to `'System Preferences'>Keyboard>Shortcuts>Services>General`
     * `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser` should be listed there
     * set shortcut to `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser` (note: try choose shortcut that you think might not be used elsewhere)
+
       &nbsp;
-      
+  
     *  To test if shortcut works, bring window of the app, that you are trying to automate (here, Brave Browser), to focus. Try shortcut. If nothing happens, go back under `General`, and repeat with another shortcut. This might take many tries to get expected response.
       &nbsp;
       
