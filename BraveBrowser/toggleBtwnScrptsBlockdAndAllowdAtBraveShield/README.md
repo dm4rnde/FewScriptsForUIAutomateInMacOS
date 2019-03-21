@@ -58,7 +58,7 @@ To allow:
 | 1. press shortcut, which will trigger | 1. ... **click on the lion icon** ... | brings up the 'Brave Shields' box |
 || 2. ... **move mouse to ... second from bottom drop-down element and click on it** ... | opens drop-down | 
 || 3. ... **move mouse to ... [All scripts allowed] (in that opened drop-down), click on it** ... | reloads page |
-|| 4. **finally press escape key on keyboard** ... | closes the 'Brave Shields' |
+|| 4. **finally press escape key** ... | closes the 'Brave Shields' |
 
 To block:
 
@@ -67,7 +67,7 @@ To block:
 | 1. press shortcut, which will trigger | 1. ... **click on the lion icon** ... | brings up the 'Brave Shields' box |
 || 2. ... **move mouse to ... second from bottom drop-down element and click on it** ... | opens drop-down | 
 || 3. ... **move mouse to ... [Scripts blocked] (in that opened drop-down), click on it** ... | reloads page |
-|| 4. **finally press escape key on keyboard** ... | closes the 'Brave Shields' |
+|| 4. **finally press escape key** ... | closes the 'Brave Shields' |
 
 
 &nbsp;
