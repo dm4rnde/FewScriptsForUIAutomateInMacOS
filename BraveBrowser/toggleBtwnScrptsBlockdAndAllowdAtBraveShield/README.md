@@ -157,12 +157,13 @@ script. And it might not go as smoothly as that.
 5. **Attach a shortcut to your service**
     * Go to `'System Preferences'>Keyboard>Shortcuts>Services>General`
     * `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser` should be listed there
-      * check the checkbox before `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser`
-      * set shortcut to `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser` (note: try choose shortcut that you think might not be used elsewhere)
+    * for `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser`
+      * check the checkbox for that new service
+      * set shortcut (note: try choose shortcut that you think might not be used elsewhere)
 
       &nbsp;
   
-    *  To test if shortcut works, bring window of the app, that you are trying to automate (here, Brave Browser), to focus. Try shortcut. If nothing happens, go back under `General`, and repeat with another shortcut. This might take many tries to get expected response.
+      * To test if shortcut works, bring window of the app, that you are trying to automate (here, Brave Browser), to focus. Try shortcut. If nothing happens, go back under `General`, and repeat with another shortcut. This might take many tries to get expected response.
       &nbsp;
       
 6. **At this point, in ideal case, by pressing shortcut the expected outcome is that UI automation will run.**
