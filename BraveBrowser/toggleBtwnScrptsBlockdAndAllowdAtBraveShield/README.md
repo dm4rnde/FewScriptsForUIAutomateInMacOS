@@ -119,6 +119,7 @@ Bellow is just one possible approach on how keyboard shortcut could be attached 
       &nbsp;
       
 6. **At this point, in ideal case, by pressing shortcut the expected outcome is that UI automation will run.**
+      &nbsp;
 
 Now, if this approach worked, `enable.applescript` can be done similarly (some other shortcut could be attached to it). 
 
