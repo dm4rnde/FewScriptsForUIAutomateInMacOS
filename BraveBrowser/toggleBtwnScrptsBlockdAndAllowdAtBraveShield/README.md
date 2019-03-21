@@ -81,7 +81,8 @@ Bellow is just one possible approach on how keyboard shortcut could be attached 
     * `File>Export...`
     * under '`File Format`' select `Script`
     * save as `toggle.scpt` to your preferred location 'location A'
-      &nbsp;    
+      &nbsp; 
+        
 2. **Convert disable.applescript to an app**
     * Open `disable.applescript` file in '`Script Editor.app`' 
     * `File>Export...`
