@@ -33,7 +33,7 @@ At the moment, to change value from existing to intended, you have to:
 
 ### Solution
 
-#### Description
+#### DESCRIPTION
 
 Script [`toggle.applescript`] will do UI automation (will go through mentioned steps 1. to 4.), and based on input will either:
 
@@ -45,7 +45,7 @@ Script [`toggle.applescript`] will do UI automation (will go through mentioned s
 
 &nbsp;
 
-#### Procedure
+#### PROCEDURE
 
 *PS! Instead of doing toggle with one shortcut, using 2 shortcuts here. One will allow and the other will block.*
 
@@ -94,7 +94,7 @@ This is just:
 ---
 
 ### Guide to installation 
-#### Attach shortcut to the AppleScript script
+#### ATTACH SHORTCUT TO THE APPLESCRIPT SCRIPT
 
 Bellow is just one possible approach on how keyboard shortcut could be attached to AppleScript script (though, it might not go as smoothly as that).
 
