@@ -109,6 +109,8 @@ This is just:
 
 ---
 
+&nbsp;
+
 ### Guide to installation 
 ##### ATTACH SHORTCUT TO THE APPLESCRIPT SCRIPT
 
