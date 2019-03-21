@@ -114,7 +114,10 @@ This is just:
 ### Guide to installation 
 ##### ATTACH SHORTCUT TO THE APPLESCRIPT SCRIPT
 
-Bellow is just one possible approach on how keyboard shortcut could be attached to AppleScript script (though, it might not go as smoothly as that).
+```
+Bellow is just one possible approach on how keyboard shortcut could be attached to AppleScript 
+script. And it is probable that it might not go as smoothly as that.
+```
 
 1. **Convert toggle.applescript to toggle.scpt**
     * Open `toggle.applescript` file in '`Script Editor.app`' (double-click might already open it)
