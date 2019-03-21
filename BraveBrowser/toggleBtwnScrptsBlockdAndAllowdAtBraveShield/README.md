@@ -111,7 +111,7 @@ Bellow is just one possible approach on how keyboard shortcut could be attached 
     * Open `toggle.applescript` file in '`Script Editor.app`' (double-click might already open it)
     * `File>Export...`
     * under '`File Format`' select `Script`
-    * save as `toggle.scpt` to your preferred location 'location A'
+    * save as `toggle.scpt` to your preferred location 'location A' (any location of your choosing)
       &nbsp; 
         
 2. **Convert disable.applescript to an app**
