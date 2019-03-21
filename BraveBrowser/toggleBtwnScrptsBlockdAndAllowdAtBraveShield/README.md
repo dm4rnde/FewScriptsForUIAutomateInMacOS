@@ -39,6 +39,18 @@ Script [`toggle.applescript`] will do UI automation (will go through mentioned s
 
 *PS! Instead of doing toggle with one shortcut, using 2 shortcuts here. One will block and the other will allow.*
 
+
+To block:
+| you> | <program |
+| :------------ | :--------------| 
+| 1. press shortcut, which | brings up the 'Brave Shields' box, opens drop-down, page reloads, close the 'Brave Shields' |
+
+
+To allow:
+| you> | <program |
+| :------------ | :--------------| 
+| 1. press shortcut, which | brings up the 'Brave Shields' box, opens drop-down, page reloads, close the 'Brave Shields' |
+
 &nbsp;
 
 ### Specifics (environment)
