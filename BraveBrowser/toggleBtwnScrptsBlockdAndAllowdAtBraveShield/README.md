@@ -90,7 +90,7 @@ Bellow is just one possible approach on how keyboard shortcut could be attached 
     * `File>New...`
     * select `Service`
     * change first drop down to '`no input`'
-    * and second drop down to '`Brave Browser.app`'
+    * and second drop down to '`Brave Browser.app`' ('any application' could also work)
     * leave the other settings as they are
     * search for '`Launch Application`'
     * click on '`Launch Application`', box-like area opens
