@@ -1,0 +1,37 @@
+# Project specific files #
+# add here
+
+
+*issues*.txt
+*.scpt
+*.app
+
+
+# generated files
+bin/
+gen/
+.class
+target/
+
+# Eclipse project files
+.classpath
+.settings
+.project
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# OS generated files 
+*/.DS_Store
+.DS_Store
+.DS_Store?
+/.DS_Store
+.Trashes
+Thumbs.db
+*~
+.~*#
+.*.swp
+
