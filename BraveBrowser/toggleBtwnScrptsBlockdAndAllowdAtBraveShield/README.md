@@ -1,8 +1,12 @@
 ## Switch between 'Scripts blocked' and 'All scripts allowed' (under Brave Shield, under Brave Browser)
 
+STATUS: 	**WORKS**
+
+&nbsp;
+
 CATEGORY: UI automation
 
-STATUS: 	**WORKS**
+&nbsp;
 
 *Note! The word 'script' has 2 different meanings in current text: first, script as AppleScript — something stored as .applescript or .scpt; and then, script as JavaScript — something that is being blocked/allowed by browser.*
 
@@ -10,7 +14,7 @@ STATUS: 	**WORKS**
 
 ### Problem
 
-*Brave Browser* does not have option to **toggle between values 'All scripts allowed' and 'Scripts blocked'** (this is the part that blocks JavaScript scripts from running — or instead, allows them to run — *on domain of currently opened page*) **with keyboard shortcut**.
+<span style="color:blue">*Brave Browser*</span> does not have option to **toggle between values 'All scripts allowed' and 'Scripts blocked'** (this is the part that blocks JavaScript scripts from running — or instead, allows them to run — *on domain of currently opened page*) **with keyboard shortcut**.
 
 At the moment, to change value from existing to intended, you have to: 
  1. move mouse to click on the lion icon located on the right (on the 'address bar'), which will bring up the 'Brave Shields' box
