@@ -18,7 +18,7 @@
 
 At the moment, to change value from existing to intended, you have to: 
 
-| user> | <program |
+| you> | <program |
 | :------------ | :--------------| 
 | 1. move mouse to click on the lion icon located on the right (on the 'address bar'), which | brings up the 'Brave Shields' box |
 | 2. then move mouse to go to second from bottom drop-down element and click on it to | open drop-down | 
