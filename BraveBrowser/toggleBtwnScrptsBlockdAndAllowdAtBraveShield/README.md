@@ -159,7 +159,7 @@ script. And it might not go as smoothly as that.
     * `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser` should be listed there
     * for `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser`
       * check the checkbox before that new service
-      * **set shortcut** (note: try choose shortcut that you think might not be used elsewhere)
+      * **set shortcut** (try choose shortcut that you think might not be used elsewhere)
 
       &nbsp;
   
