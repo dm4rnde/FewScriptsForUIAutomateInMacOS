@@ -145,7 +145,7 @@ script. And it might not go as smoothly as that.
     * `File>New...`
     * select `Service`
     * change first drop down to '`no input`'
-    * and second drop down to '`Brave Browser.app`' ('any application' could also work)
+    * and second drop down to '`Brave Browser.app`' ('`any application`' could also work)
     * leave the other settings as they are
     * search for '`Launch Application`'
     * double-click on '`Launch Application`', box-like area opens
