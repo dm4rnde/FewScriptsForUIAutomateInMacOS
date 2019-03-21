@@ -148,7 +148,7 @@ script. And it might not go as smoothly as that.
     * and second drop down to '`Brave Browser.app`' ('any application' could also work)
     * leave the other settings as they are
     * search for '`Launch Application`'
-    * click on '`Launch Application`', box-like area opens
+    * double-click on '`Launch Application`', box-like area opens
     * from that box-like area open drop-down and choose '`Other...`', then browse to select `setToScrptsBlockdCurrPgBraveShieldBraveBrowser.app` (from 'location A')
     * save — here, will save this new service as `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser`
       &nbsp;
