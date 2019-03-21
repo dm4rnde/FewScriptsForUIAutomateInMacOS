@@ -1,7 +1,5 @@
 ## Switch between 'Scripts blocked' and 'All scripts allowed' (under Brave Shield, under Brave Browser)
 
-[![](https://img.shields.io/github/size/dm4rnde/FewScriptsForUIAutomateInMacOS/BraveBrowser/toggleBtwnScrptsBlockdAndAllowdAtBraveShield.svg?style=flat-square)
-
 
 | CATEGORY 		| PROGRAM | STATUS 	 |
 | :------------ | :--------------| :---------|
