@@ -158,7 +158,7 @@ script. And it might not go as smoothly as that.
     * Go to `'System Preferences'>Keyboard>Shortcuts>Services>General`
     * `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser` should be listed there
     * there, for `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser`
-      * just on the left of the service name check the checkbox
+      * just on the left of the service name check `✓` the checkbox
       * on the right of the service click on `none` (or `Add Shortcut`) to **set shortcut** (try choose shortcut that you think might not be used elsewhere)
 
       &nbsp;
