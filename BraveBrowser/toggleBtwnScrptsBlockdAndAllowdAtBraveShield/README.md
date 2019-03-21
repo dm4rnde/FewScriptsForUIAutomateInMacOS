@@ -53,7 +53,10 @@ Script [`toggle.applescript`] will do UI automation (will go through mentioned s
 
 ##### PROCEDURE
 
-*PS! Instead of doing toggle with one shortcut, using 2 shortcuts here. One will allow and the other will block.*
+```
+PS! Instead of doing toggle with one shortcut, using 2 shortcuts here. One will allow 
+and the other will block.
+```
 
 To allow:
 
