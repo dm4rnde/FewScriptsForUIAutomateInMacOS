@@ -69,24 +69,23 @@ This is just:
 
 Bellow is just one possible approach on how keyboard shortcut could be attached to AppleScript script (though, it might not go as smoothly as that).
 
-0. **Convert toggle.applescript to toggle.scpt**
-    * (If doing first time, then do also:
+1. **Convert toggle.applescript to toggle.scpt**
     * Open `toggle.applescript` file in '`Script Editor.app`' (double-click might already open it)
     * `File>Export...`
     * under '`File Format`' select `Script`
-    * save as `toggle.scpt` to your preferred location 'location A')
+    * save as `toggle.scpt` to your preferred location 'location A'
       &nbsp;    
-1. **Convert scpt to an app**
+2. **Convert scpt to an app**
     * Open `disable.scpt` file in '`Script Editor.app`' 
     * `File>Export...`
     * under '`File Format`' select `Application`
     * save as `setToScrptsBlockdCurrPgBraveShieldBraveBrowser.app` (this file name is just an example, you can rename as you prefer) to 'location A'
       &nbsp;
-2. **Give your app Accessibility permission**; without this, app will not run
+3. **Give your app Accessibility permission**; without this, app will not run
     * Go to `'System Preferences'>'Security and Privacy'>Privacy>Accessibility`
     * add `setToScrptsBlockdCurrPgBraveShieldBraveBrowser.app` (from 'location A') to that allowed list there
       &nbsp;
-3. **Create a service that will launch your app**
+4. **Create a service that will launch your app**
     * Open '`Automator.app`'
     * `File>New...`
     * select `Service`
@@ -98,15 +97,15 @@ Bellow is just one possible approach on how keyboard shortcut could be attached 
     * from that box-like area open drop-down and choose '`Other...`', then browse to select `setToScrptsBlockdCurrPgBraveShieldBraveBrowser.app` (from 'location A')
     * save — here, will save this new service as `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser`
       &nbsp;
-4. **Attach a shortcut to your service**
+5. **Attach a shortcut to your service**
     * Go to `'System Preferences'>Keyboard>Shortcuts>Services>General`
     * `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser` should be listed there
     * set shortcut to `serviceToSetToScrptsBlockdCurrPgBraveShieldBraveBrowser` (note: try choose shortcut that you think might not be used elsewhere)
       &nbsp;
     *  To test if shortcut works, bring window of the app, that you are trying to automate (here, Brave Browser), to focus. Try shortcut. If nothing happens, go back under `General`, and repeat with another shortcut. This might take many tries to get expected response.
       &nbsp;
-5. **At this point, in ideal case, by pressing shortcut the expected outcome is that UI automation will run.**
+6. **At this point, in ideal case, by pressing shortcut the expected outcome is that UI automation will run.**
 
-Now, if this approach worked, `enable.scpt` can be done similarly (some other shortcut could be attached to it). 
+Now, if this approach worked, `enable.applescript` can be done similarly (some other shortcut could be attached to it). 
 
 (PS: The shortcuts could be, for example: `Ctrl-Cmd-Alt-'` to block; `Shift-Ctrl-Cmd-Alt-'` to allow.)
