@@ -41,12 +41,14 @@ Script [`toggle.applescript`] will do UI automation (will go through mentioned s
 
 
 To block:
+
 | you> | <program |
 | :------------ | :--------------| 
 | 1. press shortcut, which | brings up the 'Brave Shields' box, opens drop-down, page reloads, close the 'Brave Shields' |
 
 
 To allow:
+
 | you> | <program |
 | :------------ | :--------------| 
 | 1. press shortcut, which | brings up the 'Brave Shields' box, opens drop-down, page reloads, close the 'Brave Shields' |
