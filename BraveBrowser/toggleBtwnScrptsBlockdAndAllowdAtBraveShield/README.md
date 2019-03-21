@@ -124,6 +124,7 @@ script. And it might not go as smoothly as that.
     * `File>Export...`
     * under '`File Format`' select `Script`
     * save as `toggle.scpt` to your preferred location 'location A' (any location of your choosing)
+    * you can now close `toggle.applescript`
       &nbsp; 
         
 2. **Convert disable.applescript to an app**
