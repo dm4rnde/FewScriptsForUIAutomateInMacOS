@@ -11,6 +11,7 @@ set winNme to activeTabNme & " - Brave"
 
 try
 	tell application "Brave Browser" to activate
+	
 	tell application "System Events"
 		tell process "Brave"
 			
@@ -31,6 +32,6 @@ try
 	end tell
 on error errorMessage2 number errorNumber2
 	display dialog "ERROR2: " & errorMessage2
-	# no continue, fail all
+	# no continue; fail all
 	return errorMessage2
 end try

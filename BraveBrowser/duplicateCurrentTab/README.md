@@ -9,7 +9,8 @@
 &nbsp;
 
 ```
-Note! With few modifications, same approach could be applied to (and reused with) other Chromium-based browsers.
+Note! With few modifications, same approach could be applied to (and reused with) other 
+Chromium-based browsers.
 ```
 
 &nbsp;
@@ -18,7 +19,9 @@ Note! With few modifications, same approach could be applied to (and reused with
 
 ##### DESCRIPTION
 
-*Brave Browser* does not have shortcut to **duplicate currently opened tab** (here, mean *true* duplicate — the result should be exactly as it is when selecting Duplicate from context menu opened when right-clicking on the tab's header) **with keyboard shortcut**.
+*Brave Browser* does not have shortcut to **duplicate currently opened tab** **with keyboard shortcut**.
+
+*Here, duplicate means *true* duplicate — the result should be exactly as it is when selecting Duplicate from context menu opened when right-clicking on the tab's header.* 
 
 &nbsp;
 
@@ -29,7 +32,7 @@ At the moment, to change value from existing to intended:
 | you> | <program |
 | :------------ | :--------------| 
 | 1. move mouse pointer to the tab (title area) and right-click on it with mouse, which | brings up the context menu |
-| 2. then move mouse to item Duplicate (on that opened context menu) and click on it, which in order | opens another tab that is exactly like previous (clone of previous; including history) |
+| 2. then move mouse to item Duplicate (on that opened context menu) and click on it, which in order | opens another tab that is exactly like previous (clone of previous; including previous's history) |
 
 &nbsp;
 
@@ -45,8 +48,8 @@ Script [`duplicate.applescript`] will do UI automation (will go through mentione
 
 | you> | UI automation script> | <program | 
 | :------------ | :--------------| :--------------|  
-| 1. press shortcut, which will trigger | 1. ... **move mouse pointer to to the tab (title area) and right-click on it with mouse** ... | brings up the context menu |
-|| 2. ... **move mouse to item Duplicate and click on it** ... | opens another tab that is exactly like (clone of) previous | 
+| 1. press shortcut, which will trigger | 1. ... **move mouse pointer to the tab (title area) and right-click on it with mouse** ... | brings up the context menu |
+|| 2. ... **move mouse to item Duplicate and click on it** ... | opens another tab that is exactly like previous | 
 
 &nbsp;
 
@@ -67,7 +70,7 @@ Script [`duplicate.applescript`] will do UI automation (will go through mentione
 
 ### Issues
 
-- ISSUE #1: unfortunately, for some reasons, after ... 'perform action "AXShowMenu" ', the flow stalls for ~5s
+- ISSUE #1: unfortunately, for some reasons, after execution of `'perform action "AXShowMenu" '`, the flow stalls for ~5s
 
 &nbsp;
 
@@ -76,6 +79,7 @@ Script [`duplicate.applescript`] will do UI automation (will go through mentione
 This is just:
  
 - AS IS; no guarantees that it will work for you
+- does not claim to be effective or best solution
 - a custom and temporary remedy
 
 &nbsp;
@@ -89,7 +93,7 @@ This is just:
 
 ```
 Bellow is just one possible approach on how keyboard shortcut could be attached to AppleScript 
-script. And it might not go as smoothly as that.
+script. Additionally, especially when not done before, it might not go as smoothly as that.
 ```
 
 1. **Convert applescript to an app**

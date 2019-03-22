@@ -116,7 +116,7 @@ This is just:
 
 ```
 Bellow is just one possible approach on how keyboard shortcut could be attached to AppleScript 
-script. And it might not go as smoothly as that.
+script. Additionally, especially when not done before, it might not go as smoothly as that.
 ```
 
 1. **Convert toggle.applescript to toggle.scpt**
