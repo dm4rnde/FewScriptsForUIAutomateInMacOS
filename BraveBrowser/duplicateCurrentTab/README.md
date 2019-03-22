@@ -31,7 +31,7 @@ At the moment, to change value from existing to intended:
 
 | you> | <program |
 | :------------ | :--------------| 
-| 1. move mouse pointer to the tab (title area) and right-click on it with mouse, which | brings up the context menu |
+| 1. move mouse pointer to the tab (title area) and right-click on it, which | brings up the context menu |
 | 2. then move mouse to item Duplicate (on that opened context menu) and click on it, which in order | opens another tab that is exactly like previous (clone of previous; including previous's history) |
 
 &nbsp;
@@ -48,8 +48,8 @@ Script [`duplicate.applescript`] will do UI automation (will go through mentione
 
 | you> | UI automation script> | <program | 
 | :------------ | :--------------| :--------------|  
-| 1. press shortcut, which will trigger | 1. ... **move mouse pointer to the tab (title area) and right-click on it** ... | brings up the context menu |
-|| 2. ... **move mouse to item Duplicate and click on it** ... | opens another tab that is exactly like previous | 
+| 1. press shortcut, which will trigger | 1. ... **right-click on tab's title area** ... | brings up the context menu |
+|| 2. ... **move to item Duplicate and press enter** ... | opens another tab that is exactly like previous | 
 
 &nbsp;
 
@@ -70,7 +70,7 @@ Script [`duplicate.applescript`] will do UI automation (will go through mentione
 
 ### Issues
 
-- ISSUE #1: unfortunately, for some reasons, after execution of `'perform action "AXShowMenu" '`, the flow stalls for ~5s
+- ISSUE #1: unfortunately, for some reasons, after execution of '`perform action "AXShowMenu"`', the flow stalls for ~5s
 
 &nbsp;
 
