@@ -1,7 +1,7 @@
 # Copyright (c) 2019 dm4rnde (dm4rnde@protonmail.com). The MIT License.
 
 
-# PRECONDITION TO RUN:
+# Precondition to run:
 # 	you must have 'Brave Browser' opened and 
 # 	you must have tab opened showing web page and 
 # 	(you must have 'script blocking' off ('Brave Shields ...' shows 'All scripts allowed') on that web page

@@ -7,7 +7,7 @@
 # 	change related UI element (from 'Scripts blocked') to 'All scripts allowed'
 
 
-# PRECONDITION TO RUN:
+# Precondition to run:
 #	you must have 'Brave Browser' opened AND 
 #	you must have tab opened showing web page AND 
 #	you must have 'script blocking' on ('Brave Shields ...' shows 'Scripts blocked') on that web page AND
