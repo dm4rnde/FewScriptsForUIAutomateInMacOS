@@ -1,4 +1,4 @@
-## Allow duplicate a tab with one shortcut
+## Allow to duplicate current tab with one shortcut
 
 
 | CATEGORY 		| PROGRAM | STATUS 	 |
