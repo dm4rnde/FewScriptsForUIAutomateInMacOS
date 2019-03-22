@@ -22,7 +22,7 @@ being blocked/allowed by browser.
 
 *Brave Browser* does not have option to **toggle between values 'All scripts allowed' and 'Scripts blocked'**  **with keyboard shortcut**. 
 
-*'All scripts allowed' and 'Scripts blocked' refers to the part in Brave Browser where through opening 'Brave Shields' you can block JavaScript scripts from running — or instead, allow them to run — on domain (level) of currently opened page.*
+*'All scripts allowed' and 'Scripts blocked' refers to the part under 'Brave Shields' where user can block JavaScript scripts from running — or instead, allow them to run — on domain (level) of currently opened page.*
 
 &nbsp;
 
