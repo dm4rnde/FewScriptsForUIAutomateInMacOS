@@ -32,7 +32,7 @@ At the moment, to change value from existing to intended:
 | you> | <program |
 | :------------ | :--------------| 
 | 1. move mouse pointer to the tab (title area) and right-click on it, which | brings up the context menu |
-| 2. then move mouse to item Duplicate (on that opened context menu) and click on it, which in order | opens another tab that is exactly like previous (clone of previous; including previous's history) |
+| 2. then move mouse to item Duplicate (on that opened context menu) and click on it, which in order | opens another tab that is exactly like previous (clone of previous; includes previous's history) |
 
 &nbsp;
 
