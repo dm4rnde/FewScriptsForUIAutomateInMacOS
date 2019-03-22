@@ -29,7 +29,7 @@ on toBlocked(blockAllScripts)
 Has access to this site"
 	
 	
-	#	#	#	#	#	#	#	#	#	#	#	#	#
+	#####
 	# 1. click on the lion icon on the 'address bar', which will open 'Brave Shields ...' overlay-like 
 	#    element
 	
@@ -68,7 +68,7 @@ Has access to this site"
 	# to allow new UI element to appear
 	
 	
-	#	#	#	#	#	#	#	#	#	#	#	#	#
+	#####
 	# 2. then go to pre-last drop down and click on it to open drop-down;
 	# 3. then go to intended new value, click on it, and wait until page reloads; 
 	
@@ -140,12 +140,12 @@ def mouseClick(pos_x, pos_y):
           mouseEvent(kCGEventLeftMouseUp, pos_x, pos_y)
 
 cg_event = CGEventCreate(None)
-current_pos = CGEventGetLocation(cg_event)            # save current mouse position
-mouseClick(" & x & "," & y & ")					 # go to pre-last drop down and open drop-down
+current_pos = CGEventGetLocation(cg_event)    # save current mouse position
+mouseClick(" & x & "," & y & ")				  # go to pre-last drop down and open drop-down
 #(*finetunedelay)
-time.sleep(1.5)								 # give it some time for UI to make changes appear
-mouseClick(" & x & "," & y2 & ")					 # select intended new value and wait until page reloads
-mouseMove(int(current_pos.x), int(current_pos.y))      # restore mouse position
+time.sleep(1.5)							  # give it some time for UI to make changes appear
+mouseClick(" & x & "," & y2 & ")				         # select intended new value
+mouseMove(int(current_pos.x), int(current_pos.y))    # restore mouse position
 
 END"
 	
@@ -159,7 +159,7 @@ END"
 	delay 3.5
 	
 	
-	#	#	#	#	#	#	#	#	#	#	#	#	#
+	#####
 	# 4. finally close the 'Brave Shields ...' element
 	
 	
