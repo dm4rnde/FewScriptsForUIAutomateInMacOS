@@ -1,9 +1,6 @@
 # Copyright (c) 2019 dm4rnde (dm4rnde@protonmail.com). The MIT License.
 
 
-# NOTE! Use 'Script Editor' to edit, otherwise will not be recognized as AppleScript anymore.
-
-
 # "Set To Scripts Allowed"
 
 # This script will:

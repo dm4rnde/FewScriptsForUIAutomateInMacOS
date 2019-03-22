@@ -1,23 +1,19 @@
 # Copyright (c) 2019 dm4rnde (dm4rnde@protonmail.com). The MIT License.
 
 
-# NOTE! Use 'Script Editor' to edit, otherwise will not be recognized as AppleScript anymore.
-
-
 # PRECONDITION TO RUN:
-# you must have 'Brave Browser' opened and 
-# you must have tab opened showing web page and 
-# (you must have 'script blocking' off ('Brave Shields ...' shows 'All scripts allowed') on that web page
-# OR
-# you must have 'script blocking' on ('Brave Shields ...' shows 'Scripts blocked') on that web page)
-# (and there shouldn't be any other popups, search boxes, or similar taking over the focus
-# within 'Brave Browser')
+# 	you must have 'Brave Browser' opened and 
+# 	you must have tab opened showing web page and 
+# 	(you must have 'script blocking' off ('Brave Shields ...' shows 'All scripts allowed') on that web page
+# 	OR
+# 	you must have 'script blocking' on ('Brave Shields ...' shows 'Scripts blocked') on that web page)
+# 	(and there shouldn't be any other popups, search boxes, or similar taking over the focus
+# 	within 'Brave Browser')
 
 
 #test; uncomment 1 line at a time only
 #toBlocked(true)
 #toBlocked(false)
-
 
 -- A subroutine, that will do all the work.
 -- blockAllScripts : boolean : true  (to block all scripts -- to 'Scripts blocked')
