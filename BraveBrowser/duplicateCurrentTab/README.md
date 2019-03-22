@@ -48,7 +48,7 @@ Script [`duplicate.applescript`] will do UI automation (will go through mentione
 
 | you> | UI automation script> | <program | 
 | :------------ | :--------------| :--------------|  
-| 1. press shortcut, which will trigger | 1. ... **move mouse pointer to the tab (title area) and right-click on it with mouse** ... | brings up the context menu |
+| 1. press shortcut, which will trigger | 1. ... **move mouse pointer to the tab (title area) and right-click on it** ... | brings up the context menu |
 || 2. ... **move mouse to item Duplicate and click on it** ... | opens another tab that is exactly like previous | 
 
 &nbsp;
@@ -79,7 +79,7 @@ Script [`duplicate.applescript`] will do UI automation (will go through mentione
 This is just:
  
 - AS IS; no guarantees that it will work for you
-- does not claim to be effective or best solution
+- does not claim to be effective nor best solution
 - a custom and temporary remedy
 
 &nbsp;
