@@ -103,6 +103,7 @@ To block:
 This is just:
  
 - AS IS; no guarantees that it will work for you
+- does not claim to be effective nor best solution
 - a custom and temporary remedy
 
 &nbsp;
