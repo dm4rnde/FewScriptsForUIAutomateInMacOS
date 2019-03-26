@@ -21,7 +21,7 @@ Chromium-based browsers.
 
 *Brave Browser* does not have shortcut to **duplicate currently opened tab** **with keyboard shortcut**.
 
-*Here, duplicate means *true* duplicate — the result should be exactly as it is when selecting Duplicate from context menu opened when right-clicking on the tab's header.* 
+*Here, duplicate means true duplicate — the result should be exactly as it is when selecting Duplicate from context menu opened when right-clicking on the tab's header.* 
 
 &nbsp;
 

@@ -2,13 +2,13 @@
 
 
 # Precondition to run:
-# 	you must have 'Brave Browser' opened and 
-# 	you must have tab opened showing web page and 
-# 	(you must have 'script blocking' off ('Brave Shields ...' shows 'All scripts allowed') on that web page
-# 	OR
-# 	you must have 'script blocking' on ('Brave Shields ...' shows 'Scripts blocked') on that web page)
-# 	(and there shouldn't be any other popups, search boxes, or similar taking over the focus
-# 	within 'Brave Browser')
+# 	- you must have 'Brave Browser' opened AND 
+# 	- you must have tab opened showing web page AND 
+# 	- (you must have 'script blocking' off ('Brave Shields ...' shows 'All scripts allowed') on that web page
+# 	  OR
+# 	  you must have 'script blocking' on ('Brave Shields ...' shows 'Scripts blocked') on that web page) AND
+# 	- there shouldn't be any other popups, search boxes, or similar taking over the focus
+# 	  within 'Brave Browser'
 
 
 #test; uncomment 1 line at a time only
@@ -29,9 +29,11 @@ on toBlocked(blockAllScripts)
 Has access to this site"
 	
 	
-	#####
-	# 1. click on the lion icon on the 'address bar', which will open 'Brave Shields ...' overlay-like 
-	#    element
+	#
+	#   1. click on the lion icon on the 'address bar', which will open 'Brave Shields ...' overlay-like 
+	#       element
+	#
+	# # # # #
 	
 	
 	#(*finetunedelay)
@@ -53,6 +55,7 @@ Has access to this site"
 			#now if it is not even Private Window case, then just fail
 			
 			tell theBtn to perform action "AXPress"
+			
 		end tell
 		
 	on error errorMessage2 number errorNumber2
@@ -68,9 +71,11 @@ Has access to this site"
 	# to allow new UI element to appear
 	
 	
-	#####
-	# 2. then go to pre-last drop down and click on it to open drop-down;
-	# 3. then go to intended new value, click on it, and wait until page reloads; 
+	#
+	#   2. then go to pre-last drop down and click on it to open drop-down; 
+	#   3. then go to intended new value, click on it, and wait until page reloads;
+	#
+	# # # # #
 	
 	
 	#tell application "Brave Browser" to activate
@@ -159,8 +164,10 @@ END"
 	delay 3.5
 	
 	
-	#####
-	# 4. finally close the 'Brave Shields ...' element
+	#
+	#   4. finally close the 'Brave Shields ...' element 
+	#   
+	# # # # #
 	
 	
 	tell application "System Events"
