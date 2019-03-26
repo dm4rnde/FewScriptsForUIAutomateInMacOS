@@ -1,5 +1,4 @@
-# Copyright (c) 2019 dm4rnde (dm4rnde@protonmail.com)
-
+# Author: dm4rnde (dm4rnde@protonmail.com; https://github.com/dm4rnde)
 
 # MIT License
 
