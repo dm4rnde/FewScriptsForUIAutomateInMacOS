@@ -24,6 +24,9 @@ being blocked/allowed by browser.
 
 *'All scripts allowed' and 'Scripts blocked' refers to the part under 'Brave Shields' where user can block JavaScript scripts from running — or instead, allow them to run — on domain of currently opened page/url.*
 
+*(Other notes:
+https://github.com/brave/brave-browser/issues/3717)*
+
 &nbsp;
 
 ##### PROCEDURE
