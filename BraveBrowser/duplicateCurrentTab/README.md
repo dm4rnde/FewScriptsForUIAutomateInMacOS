@@ -63,14 +63,14 @@ Script [`duplicate.applescript`] will do UI automation (will go through mentione
 
 ### Limitations
 
-- run time (~7s); see ISSUE #1
+- run time (~7s); see ISSUE #1🐌
 - can't interrupt and use any UI, while AppleScript is running
 
 &nbsp;
 
 ### Issues
 
-- ISSUE #1: unfortunately, for some reasons, after execution of '`perform action "AXShowMenu"`', the flow stalls for ~5s
+- ISSUE #1🐌: unfortunately, for some reasons, after execution of '`perform action "AXShowMenu"`', the flow stalls for ~5s
 
 &nbsp;
 
