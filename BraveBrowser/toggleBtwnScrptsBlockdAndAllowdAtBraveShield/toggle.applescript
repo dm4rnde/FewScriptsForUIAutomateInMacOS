@@ -89,7 +89,7 @@ Has access to this site"
 	
 	
 	#(*finetunedelay)
-	delay 1
+	delay 0.4
 	# It is very important to have some delay here,
 	# to allow new UI element to appear
 	
@@ -171,7 +171,7 @@ cg_event = CGEventCreate(None)
 current_pos = CGEventGetLocation(cg_event)    # save current mouse position
 mouseClick(" & x & "," & y & ")				  # go to pre-last drop down and open drop-down
 #(*finetunedelay)
-time.sleep(1.5)							  # give it some time for UI to make changes appear
+time.sleep(0.5)							  # give it some time for UI to make changes appear
 mouseClick(" & x & "," & y2 & ")				         # select intended new value
 mouseMove(int(current_pos.x), int(current_pos.y))    # restore mouse position
 
