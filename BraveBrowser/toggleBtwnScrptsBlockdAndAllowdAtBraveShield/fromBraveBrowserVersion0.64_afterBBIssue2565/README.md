@@ -156,5 +156,5 @@ script. Additionally, especially when new at it, it might not go as smoothly as 
       &nbsp;
 
 ```
-PS! The shortcuts could be, for example: Shift-Ctrl-Cmd-Alt-'.
+PS! The shortcuts could be, for example Shift-Ctrl-Cmd-Alt-'.
 ```
