@@ -154,7 +154,7 @@ cg_event = CGEventCreate(None)
 current_pos = CGEventGetLocation(cg_event)    # save current mouse position
 mouseClick(" & x & "," & y & ")               # go to certain (specified by coords) toggle and click on it
 #(*finetunedelay)
-time.sleep(0.5)                              # give it some time for UI to make changes appear
+time.sleep(0.5)                                # give it some time for UI to make changes appear
 mouseMove(int(current_pos.x), int(current_pos.y))    # restore mouse position
 
 END"
