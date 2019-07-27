@@ -35,7 +35,7 @@ At the moment, to change value from existing to intended:
 
 | you> | <program |
 | :------------ | :--------------| 
-| 1. move mouse pointer to click on the lion icon located on the right (on the 'address bar'), which | brings up the 'Brave Shields' box |
+| 1. move mouse pointer to click on the 'lion icon' located on the right (on the 'address bar'), which | brings up the 'Brave Shields' box |
 | 2. then move mouse to go to certain toggle element and click on it, and wait a bit to allow | toggle changes its value | 
 | 3. finally press escape key on keyboard (or move mouse away to some neutral area and click), which | closes the 'Brave Shields' |
 
@@ -57,7 +57,7 @@ Script [`toggle.applescript`] will do UI automation (will go through mentioned s
 
 | you> | UI automation script> | <program | 
 | :------------ | :--------------| :--------------|  
-| 1. press shortcut, which will trigger | 1. ... **click on the lion icon** ... | brings up the 'Brave Shields' box |
+| 1. press shortcut, which will trigger | 1. ... **click on the 'lion icon'** ... | brings up the 'Brave Shields' box |
 || 2. ... **move mouse to ... certain toggle element and click on it** ... | toggle changes its value | 
 || 3. **finally press escape key** ... | closes the 'Brave Shields' |
 
