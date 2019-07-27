@@ -46,7 +46,6 @@ At the moment, to change value from existing to intended:
 ##### DESCRIPTION
 
 Script [`toggle.applescript`] will do UI automation (will go through mentioned steps 1. to 3.), and based on current state of toggle, will:
-on/off values 'Scripts blocked'
 
 - change toggle of '**Scripts blocked**' to off when it was on (now 'all scripts are blocked')
 
