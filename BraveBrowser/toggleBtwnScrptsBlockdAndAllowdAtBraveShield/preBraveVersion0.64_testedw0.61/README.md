@@ -95,7 +95,7 @@ To block:
 
 ### Limitations
 
-- run time (~8s)
+- run time (~6s)
 - before using, fine-tune of certain marked places 
 (*finetunecoord and 
 *finetunedelay) might be needed (because of different UI setups / future changes in browser's UI); might take some tries to get all working
