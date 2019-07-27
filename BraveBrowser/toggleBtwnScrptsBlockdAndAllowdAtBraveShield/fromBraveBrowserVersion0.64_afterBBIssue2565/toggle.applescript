@@ -170,7 +170,7 @@ END"
 	
 	
 	#
-	#   4. finally close the 'Brave Shields ...' element 
+	#   3. finally close the 'Brave Shields ...' element 
 	#   
 	# # # # #
 	
@@ -179,7 +179,7 @@ END"
 		# Keyboard key Escape
 		key code 53
 		
-		# TODO this needs verifying if it is needed anymore
+		# TODO this needs verifying if needed anymore:
 		# Second Escape press is to cover those cases, 
 		# when nothing changed TODO (check if needed at all)
 		#(*finetunedelay)
